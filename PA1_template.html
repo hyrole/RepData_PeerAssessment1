@@ -244,7 +244,7 @@ ggplot(steps_daily,aes(x = steps)) + ggtitle(&quot;Total number of steps taken e
   xlab(&quot;Steps&quot;) + ylab(&quot;Frequency&quot;) + geom_histogram(binwidth = 2000)
 </code></pre>
 
-<pre><code>Saving to PNG file
+<pre><code>Save as PNG
 </code></pre>
 
 <pre><code class="r">dev.copy(png, file=&quot;plotting_graph/1_historam.png&quot;, height=480, width=600)
@@ -289,7 +289,7 @@ ggplot(steps_average,aes(interval,steps)) +
   geom_line()
 </code></pre>
 
-<pre><code>Saving to PNG file
+<pre><code>Save as PNG
 </code></pre>
 
 <pre><code class="r">dev.copy(png, file=&quot;plotting_graph/2_time_series_plot.png&quot;, height=480, width=600)
@@ -366,7 +366,7 @@ ggplot(StepsAverage_NA,aes(x = steps)) + ggtitle(&quot;Total number of steps tak
   xlab(&quot;Steps&quot;) + ylab(&quot;Frequency&quot;) + geom_histogram(binwidth = 2000)
 </code></pre>
 
-<pre><code>Saving to PNG file
+<pre><code>Save as PNG
 </code></pre>
 
 <pre><code class="r">dev.copy(png, file=&quot;plotting_graph/3_histogram.png&quot;, height=480, width=600)
@@ -427,7 +427,7 @@ ggplot(StepsAverageDifference, aes(interval, steps)) + geom_line(lwd = 1) + face
   xlab(&quot;5-minute interval&quot;) + ylab(&quot;Average steps&quot;) + labs(title = expression(&quot;Differences in activity patterns between weekdays and weekends&quot;))
 </code></pre>
 
-<pre><code>Saving to PNG file
+<pre><code>Save as PNG
 </code></pre>
 
 <pre><code class="r">dev.copy(png, file=&quot;plotting_graph/4_time_series_plot.png&quot;, height=480, width=600)

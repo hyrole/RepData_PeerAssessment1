@@ -44,7 +44,7 @@ ggplot(steps_daily,aes(x = steps)) + ggtitle("Total number of steps taken each d
 ```
 
 ```
-Saving to PNG file
+Save as PNG
 ```
 
 ```r
@@ -92,7 +92,7 @@ ggplot(steps_average,aes(interval,steps)) +
 ```
 
 ```
-Saving to PNG file
+Save as PNG
 ```
 
 ```r
@@ -168,7 +168,7 @@ ggplot(StepsAverage_NA,aes(x = steps)) + ggtitle("Total number of steps taken ea
 
 
 ```
-Saving to PNG file
+Save as PNG
 ```
 
 ```r
@@ -235,7 +235,7 @@ ggplot(StepsAverageDifference, aes(interval, steps)) + geom_line(lwd = 1) + face
 ```
 
 ```
-Saving to PNG file
+Save as PNG
 ```
 
 ```r
